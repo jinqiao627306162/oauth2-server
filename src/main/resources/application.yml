@@ -3,3 +3,6 @@ server:
 spring:
   application:
     name: oauth2-service
+logging:
+  config:
+    classpath: log4j2-dev.xml
